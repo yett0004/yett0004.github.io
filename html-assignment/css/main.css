@@ -1,0 +1,53 @@
+body { 
+  header, footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+  font-family: poppins, segoe UI, sans-serif;
+  font-size: 18px;
+}
+
+h2 {
+  color: #ff7b00;
+}
+
+footer p {
+  color: #6c63ff;
+  font-size: 14px;
+}
+
+.site-title {
+  color: #00b894;
+}
+
+#my-image {
+  box-shadow: 0 0 8px 3px black;
+}
+
+ul.hobbies {
+  list-style-type: square;
+}
+
+
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  background-color: #ddd;
+  border: 1px solid #333;
+  padding: 8px 12px;
+}
+
+nav a:hover,
+nav a:focus {
+  background-color: #aaa;
+}
