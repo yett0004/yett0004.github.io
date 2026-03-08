@@ -9,6 +9,125 @@
     
 </head>
 <body>
+   <!--  HEADER SECTION -->
+     <header class="hero-header">
+        <img src="images/lion-hero.jpg" alt="Majestic lion at sunset in African savanna" class="hero-image">
+       <h1 class="site-title">Majestic Lion</h1>
+    </header>
+    <!--  NAVIGATION SECTION  -->
     
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#story">STORY</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+    <!-- MAIN CONTENT -->
+    <main class="container">
+        
+        <!-- ARTICLE SECTION  -->
+        <article id="story" class="article-section">
+            <h2>Life of a Lion</h2>
+            <!-- Article image  -->
+            <img src="images/lion-article.jpg" alt="Close-up portrait of a lioness" class="article-image">
+            <!-- Article content about lions -->
+            <p>
+                The lion, known as the "King of the Jungle," is one of the most iconic and majestic creatures 
+                on Earth. Despite their royal title, lions actually inhabit grasslands and savannas rather than 
+                jungles. These magnificent big cats are the second-largest living cats after tigers, with male 
+                lions weighing up to 550 pounds and measuring over 8 feet in length, excluding their impressive 
+                manes that can add another 12 inches to their appearance.
+            </p>
+            <p>
+                Lions are unique among big cats for their social behavior. They live in groups called prides, 
+                which typically consist of related females, their cubs, and a small number of adult males. 
+                Female lions, or lionesses, are the primary hunters of the pride, working together in coordinated 
+                groups to take down prey such as zebras, wildebeest, and buffalo. Their teamwork and strategic 
+                hunting techniques make them highly successful predators, with a success rate of about 30% per hunt.
+            </p>
+            <p>
+                The male lion's most distinctive feature is his magnificent mane, which serves multiple purposes. 
+                The mane protects the male's neck during fights with rival males, and its size and coloration 
+                signal health and strength to potential mates. Darker, fuller manes are generally more attractive 
+                to lionesses. Male lions defend their pride's territory, which can span up to 100 square miles, 
+                marking boundaries with scent markings and roaring to warn intruders.
+            </p>
+            <p>
+                Lion cubs are born blind and helpless, weighing only about 3 pounds at birth. They begin to open 
+                their eyes after about a week and are weaned at around 6 months. Unfortunately, cub mortality is 
+                high, with only about 1 in 8 cubs surviving to adulthood due to predation, starvation, and infanticide 
+                by rival males. Those that do survive learn essential hunting skills by observing and participating 
+                in group hunts with the pride, gradually developing the skills needed to survive in the wild.
+            </p>
+        </article>
+         <!-- FACTS SECTION -->
+        
+        <section class="facts-section">
+            <h2>Facts About Lions</h2>
+            <ul>
+                <li>A lion's roar can be heard from up to 5 miles away, making it one of the loudest big cat vocalizations.</li>
+                <li>Lions can run at speeds of up to 50 miles per hour in short bursts, but only for short distances.</li>
+                <li>A lion's tongue is covered in tiny spines called papillae, which help scrape meat off bones.</li>
+                <li>Lions sleep for an average of 20 hours a day, making them one of the laziest big cats.</li>
+                <li>Female lions in the same pride often give birth around the same time and raise their cubs together.</li>
+                <li>Lions have been featured in human culture for thousands of years, symbolizing strength, courage, and royalty.</li>
+            </ul>
+        </section>
+
+        <!-- CONTACT FORM SECTION  -->
+        
+        <section id="contact" class="contact-section">
+            <h2>Contact to learn more</h2>
+            <form action="#" method="post" class="contact-form">
+                
+                 <!--Name  -->
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <!-- Email  -->
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <!-- Message  -->
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+
+                <!-- Radio button  -->
+                <fieldset class="radio-group">
+                    <legend>Would you like to visit the lions?</legend>
+                    <div class="radio-options">
+                        <label for="visit-yes">
+                            <input type="radio" id="visit-yes" name="visit" value="yes">
+                            Yes
+                        </label>
+                        <label for="visit-no">
+                            <input type="radio" id="visit-no" name="visit" value="no">
+                            No
+                        </label>
+                        <label for="visit-maybe">
+                            <input type="radio" id="visit-maybe" name="visit" value="maybe">
+                            Maybe
+                        </label>
+                    </div>
+                </fieldset>
+
+                <!-- Submit button -->
+                <button type="submit" class="submit-btn">SEND</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!--  FOOTER SECTION -->
+    <footer class="site-footer">
+        <p>&copy; Majestic Lion.</p>
+
 </body>
 </html>
