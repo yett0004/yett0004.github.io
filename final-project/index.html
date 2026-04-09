@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>final project</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!--  HEADER SECTION  -->
+    <!-- Contains the site logo, main navigation, and search functionality -->
+    <header class="site-header">
+        <div class="header-container">
+            <!-- Logo Section -->
+            <div class="logo">
+                <img src="images/logo.png" alt="Three Star Media Logo">
+            </div>
+            
+            <!-- Main Navigation -->
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="#team" class="nav-link">Team</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <!-- Search Form -->
+            <form class="search-form" action="#" method="get">
+                <label for="search-input" class="visually-hidden">Search</label>
+                <input type="text" id="search-input" name="search" placeholder="Search" class="search-input">
+                <button type="submit" class="search-button" aria-label="Submit search">
+                    <span class="search-icon">&#128269;</span>
+                </button>
+            </form>
+        </div>
+    </header>
+
+    <!--  MAIN CONTENT-->
+    <main class="main-content">
+        
+        <!-- HERO SECTION  -->
+        <!-- Welcome banner with background image and call-to-action -->
+        <section id="home" class="hero-section">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Welcome to Three Star Media</h1>
+                    <p class="hero-description">
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit. Magnam rerum voluptas nesciunt quam nostrum similique nihil laboriosam provident neque, 
+                        recusandae voluptate temporibus! Animi accusamus id fuga voluptatibus facilis iusto consequuntur!
+                    </p>
+                    <a href="#contact" class="cta-button">
+                        Connect with us 
+                        <span class="play-icon">&#9654;</span>
+                    </a>
+                </div>
+            </div>
+            <!-- Hero Background Image -->
+            <div class="hero-background">
+                <img src="images/main-banner.jpg" alt="Modern office workspace">
+            </div>
+        </section>
+
+        <!--  ABOUT US SECTION  -->
+        <!-- Company introduction with image and text content -->
+        <section id="about" class="about-section">
+            <div class="about-container">
+                <!-- About Image -->
+                <div class="about-image">
+                    <img src="images/about-us.jpg" alt="Office recreation area with ping pong table">
+                </div>
+                
+                <!-- About Content -->
+                <div class="about-content">
+                    <h2 class="section-title">About Us</h2>
+                    <p class="about-text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero unde repellendus exercitationem asperiores ducimus placeat, maxime soluta 
+                        nesciunt pariatur aliquam consequuntur sequi saepe sint praesentium laboriosam perferendis eius amet ad?
+                    </p>
+                    <p class="about-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, velit ipsam? Atque accusamus, excepturi corrupti sunt reiciendis soluta quo commodi 
+                        quidem, non perferendis vel sed facilis rerum cum in exercitationem?
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--  SERVICES SECTION  -->
+        <!-- Services offered by the company -->
+        <section id="services" class="services-section">
+            <div class="services-container">
+                <h2 class="section-title">Our Services</h2>
+                
+                <!-- Services Grid -->
+                <div class="services-grid">
+                    
+                    <!-- Large Service Cards Row -->
+                    <div class="service-card service-card-large">
+                        <div class="service-image">
+                            <img src="images/digital.jpg" alt="Digital transformation - laptop and smartphone">
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Digital Transformation</h3>
+                            <p class="service-description">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius vel, rem inventore quo tempora animi 
+                                mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?
+                            </p>
+                            <a href="#" class="service-button">
+                                Digital Plans 
+                                <span class="play-icon">&#9654;</span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card service-card-large">
+                        <div class="service-image">
+                            <img src="images/marketing.jpg" alt="Marketing analytics dashboard">
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Marketing</h3>
+                            <p class="service-description">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius vel, rem inventore quo tempora animi 
+                                mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?
+                            </p>
+                            <a href="#" class="service-button">
+                                Marketing Plans 
+                                <span class="play-icon">&#9654;</span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Small Service Cards Row -->
+                    <div class="service-card service-card-small">
+                        <div class="service-image">
+                            <img src="images/video.jpg" alt="Video production - YouTube on mobile">
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Video Production</h3>
+                            <p class="service-description">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius vel, rem inventore quo tempora animi 
+                                mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?
+                            </p>
+                            <a href="#" class="service-button">
+                                Video Plans 
+                                <span class="play-icon">&#9654;</span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card service-card-small">
+                        <div class="service-image">
+                            <img src="images/web.jpg" alt="Web development - mobile app interface">
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Web Development</h3>
+                            <p class="service-description">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius vel, rem inventore quo tempora animi 
+                                mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?
+                            </p>
+                            <a href="#" class="service-button">
+                                Web Plans 
+                                <span class="play-icon">&#9654;</span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card service-card-small">
+                        <div class="service-image">
+                            <img src="images/print.jpg" alt="Print services - newspaper stands">
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Print</h3>
+                            <p class="service-description">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius vel, rem inventore quo tempora animi 
+                                mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?
+                            </p>
+                            <a href="#" class="service-button">
+                                Print Plans 
+                                <span class="play-icon">&#9654;</span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!--  VISION SECTION  -->
+        <!-- Company vision with background image -->
+        <section class="vision-section">
+            <div class="vision-container">
+                <div class="vision-content">
+                    <h2 class="section-title vision-title">Our Vision</h2>
+                    <p class="vision-text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex voluptatem deleniti iure, sit, accusantium rerum est commodi veniam tempora 
+                        perspiciatis nobis officiis fugiat eaque. Veritatis exercitationem delectus ex ab laudantium.
+                    </p>
+                    <a href="#" class="vision-button">
+                        Learn More 
+                        <span class="play-icon">&#9654;</span>
+                    </a>
+                </div>
+            </div>
+            <!-- Vision Background Image -->
+            <div class="vision-background">
+                <img src="images/vision.jpg" alt="Paper boats representing vision and leadership">
+            </div>
+        </section>
+
+        <!--  TEAM SECTION -->
+        <!-- Team members showcase -->
+        <section id="team" class="team-section">
+            <div class="team-container">
+                <h2 class="section-title">Our Team</h2>
+                
+                <!-- Team Members Grid -->
+                <div class="team-grid">
+                    
+                    <!-- Team Member 1: John Doe -->
+                    <article class="team-member">
+                        <div class="team-member-image">
+                            <img src="images/john.jpg" alt="John Doe - CEO and Co-owner">
+                        </div>
+                        <div class="team-member-info">
+                            <h3 class="team-member-name">John Doe</h3>
+                            <p class="team-member-role">CEO and Co-owner</p>
+                            <hr class="team-divider">
+                            <p class="team-member-bio">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, aspernatur ratione sed cum ad officiis sint cumque fugiat similique. Earum 
+                                laudantium deleniti possimus? Voluptatem architecto repellendus harum sit voluptatum tempora.
+                            </p>
+                        </div>
+                    </article>
+                    
+                    <!-- Team Member 2: Bob Rite -->
+                    <article class="team-member">
+                        <div class="team-member-image">
+                            <img src="images/bob.jpg" alt="Bob Rite - CFO and Co-owner">
+                        </div>
+                        <div class="team-member-info">
+                            <h3 class="team-member-name">Bob Rite</h3>
+                            <p class="team-member-role">CFO and Co-owner</p>
+                            <hr class="team-divider">
+                            <p class="team-member-bio">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, aspernatur ratione sed cum ad officiis sint cumque fugiat similique. Earum 
+                                laudantium deleniti possimus? Voluptatem architecto repellendus harum sit voluptatum tempora.
+                            </p>
+                        </div>
+                    </article>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!--  CONTACT SECTION  -->
+        <!-- Contact form, location map, and hours of operation -->
+        <section id="contact" class="contact-section">
+            <div class="contact-container">
+                <h2 class="section-title">Contact Us</h2>
+                
+                <div class="contact-grid">
+                    
+                    <!-- Contact Form -->
+                    <div class="contact-form-wrapper">
+                        <h3 class="contact-subtitle">Send us a message</h3>
+                        <form class="contact-form" action="#" method="post">
+                            <div class="form-group">
+                                <label for="full-name" class="form-label">Full Name</label>
+                                <input type="text" id="full-name" name="full-name" class="form-input" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" id="email" name="email" class="form-input" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea id="message" name="message" class="form-textarea" rows="6" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="form-button">Send</button>
+                        </form>
+                    </div>
+                    
+                    <!-- Location Information -->
+                    <div class="location-wrapper">
+                        <h3 class="contact-subtitle">Location</h3>
+                        <div class="map-container">
+                            <!-- Google Map -->
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.944456570024!2d-75.75750068444533!3d45.34993377909986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1609459200000!5m2!1sen!2sca" 
+                                width="100%" 
+                                height="300" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade"
+                                title="Three Star Media Location - Algonquin College">
+                            </iframe>
+                        </div>
+                    </div>
+                    
+                    <!-- Hours of Operation -->
+                    <div class="hours-wrapper">
+                        <h3 class="contact-subtitle">Hours of operation</h3>
+                        <table class="hours-table">
+                            <thead>
+                                <tr>
+                                    <th>Days</th>
+                                    <th>Hours</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Monday - Friday</td>
+                                    <td>9 AM - 6 PM</td>
+                                </tr>
+                                <tr>
+                                    <td>Saturday - Sunday</td>
+                                    <td>Closed</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER SECTION  -->
+    <!-- Site footer with copyright information -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <p class="footer-copyright">
+                &copy; Copyright Three Star Media, 2020
+            </p>
+            <p class="footer-credit">
+                All images are taken from <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
