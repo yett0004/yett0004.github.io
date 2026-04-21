@@ -1,0 +1,474 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #222;
+    background-color: #fff;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+iframe {
+    width: 100%;
+    border: 0;
+    display: block;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+}
+
+/* Containers */
+.header-container,
+.about-container,
+.services-container,
+.team-container,
+.contact-container,
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+/* Header */
+.site-header {
+    background-color: #222;
+    padding: 15px 0;
+}
+
+.logo {
+    background-color: #c78c06;
+    padding: 20px 15px;
+}
+
+.logo img {
+    max-width: 120px;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.nav-link {
+    display: block;
+    padding: 14px 10px;
+    color: #c78c06;
+    font-size: 1rem;
+}
+
+.nav-link.active {
+    background-color: #c78c06;
+    color: #222;
+}
+
+.search-form {
+    display: flex;
+    margin-top: 10px;
+}
+
+.search-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #aaa;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.search-button {
+    width: 50px;
+    border: 1px solid #c78c06;
+    background-color: #222;
+    color: #c78c06;
+    cursor: pointer;
+}
+
+/* Hero */
+.hero-section {
+    position: relative;
+}
+
+.hero-background img {
+    min-height: 500px;
+    object-fit: cover;
+}
+
+.hero-container {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    max-width: 1200px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    padding: 0 15px;
+}
+
+.hero-content {
+    background-color: rgba(34, 34, 34, 0.7);
+    color: white;
+    padding: 20px;
+    width: 100%;
+}
+
+.hero-title {
+    font-size: 3rem;
+    line-height: 1.1;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.hero-description {
+    margin-bottom: 20px;
+}
+
+.cta-button,
+.service-button,
+.vision-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #c78c06;
+    color: #222;
+    padding: 22px 18px;
+    font-weight: 700;
+}
+
+.play-icon {
+    font-size: 1.4rem;
+}
+
+/* About */
+.about-section {
+    background-color: #ffe6ac;
+    padding: 20px 0 30px;
+}
+
+.about-image {
+    margin-bottom: 20px;
+}
+
+.about-text {
+    margin-bottom: 15px;
+}
+
+/* Services */
+.services-section {
+    padding: 30px 0;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+.service-card {
+    background-color: #ffe6ac;
+}
+
+.service-content {
+    padding: 20px 15px;
+}
+
+.service-title {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.service-description {
+    margin-bottom: 15px;
+}
+
+.service-button {
+    background-color: #222;
+    color: #fff;
+    min-width: 220px;
+    justify-content: center;
+}
+
+/* Vision */
+.vision-section {
+    position: relative;
+    margin: 20px 0 30px;
+}
+
+.vision-background img {
+    min-height: 260px;
+    object-fit: cover;
+}
+
+.vision-container {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    padding: 0 15px;
+}
+
+.vision-content {
+    color: white;
+}
+
+.vision-title {
+    margin-bottom: 12px;
+}
+
+.vision-text {
+    margin-bottom: 15px;
+}
+
+.vision-button {
+    background-color: transparent;
+    border: 1px solid #c78c06;
+    color: white;
+}
+
+/* Team */
+.team-section {
+    padding: 20px 0 30px;
+}
+
+.team-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.team-member-info {
+    background-color: #ffe6ac;
+    padding: 15px;
+}
+
+.team-member-name {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+
+.team-member-role {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.team-divider {
+    border: none;
+    border-top: 2px solid #c78c06;
+    margin-bottom: 10px;
+}
+
+/* Contact */
+.contact-section {
+    padding: 20px 0 30px;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.contact-subtitle {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.form-group {
+    margin-bottom: 12px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.form-input,
+.form-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #222;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form-textarea {
+    resize: vertical;
+    min-height: 160px;
+}
+
+.form-button {
+    background-color: #222;
+    color: #c78c06;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.hours-table th,
+.hours-table td {
+    border: 1px solid #222;
+    padding: 12px;
+    text-align: left;
+}
+
+.hours-table th {
+    background-color: #ffe6ac;
+}
+
+/* Footer */
+.site-footer {
+    background-color: #222;
+    color: #c78c06;
+    padding: 20px 0;
+}
+
+.footer-copyright {
+    margin-bottom: 8px;
+}
+
+.footer-credit a {
+    color: #c78c06;
+}
+
+/* Tablet and desktop */
+@media screen and (min-width: 760px) {
+    .header-container {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .logo {
+        flex-shrink: 0;
+    }
+
+    .main-nav {
+        flex: 1;
+    }
+
+    .nav-list {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .search-form {
+        margin-top: 0;
+        width: 260px;
+        flex-shrink: 0;
+    }
+
+    .hero-background img {
+        min-height: 540px;
+    }
+
+    .hero-content {
+        max-width: 700px;
+        padding: 35px 30px;
+    }
+
+    .hero-title {
+        font-size: 4.8rem;
+    }
+
+    .about-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        align-items: start;
+    }
+
+    .about-image {
+        margin-bottom: 0;
+    }
+
+    .services-grid {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .service-card-large {
+        grid-column: span 3;
+    }
+
+    .service-card-small {
+        grid-column: span 2;
+    }
+
+    .vision-background img {
+        min-height: 340px;
+    }
+
+    .team-member {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .team-member:nth-child(even) .team-member-image {
+        order: 2;
+    }
+
+    .team-member:nth-child(even) .team-member-info {
+        order: 1;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "form form"
+            "hours map";
+    }
+
+    .contact-form-wrapper {
+        grid-area: form;
+    }
+
+    .hours-wrapper {
+        grid-area: hours;
+    }
+
+    .location-wrapper {
+        grid-area: map;
+    }
+}
